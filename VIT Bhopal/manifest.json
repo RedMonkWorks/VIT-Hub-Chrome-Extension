@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "VIT Hub",
+    "description": "Hub for VIT websites",
+    "version": "1.0.1",
+    "icons": {"128": "logo_150.png"},
+    "browser_action": {
+        "default_icon": "logo_150.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
